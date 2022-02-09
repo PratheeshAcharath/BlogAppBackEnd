@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 
 var articleSchema = new Schema({
     name: String,
-    username: String,
+    username: String, 
     upvotes: Number,
     comments: Array
 });
